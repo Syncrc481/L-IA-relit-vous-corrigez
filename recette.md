@@ -38,3 +38,14 @@ j'ai retirer ces ligne de css<br>
 *:focus {<br>
 outline: none;<br>
 }
+
+**A4 :** <br>
+
+Quand on clique sur code postal il ne se passe rien alors que sur date souhaiter ca nous "redirige" sur le champ pour selectionner une date
+
+Je pense qu'il faut ajoute une notion de css a la class qui doit etre la meme que pour date souhaitez
+
+Correction : <br>
+
+label for="code-postal"Code postal /label  !-- modification du for de cp a code postale--
+
