@@ -25,3 +25,16 @@ width: 100%;<br>
 height: 100%; /*passage de 220px de valeur a 100% */<br>
 border-radius: var(--rayon);
 }
+
+**A3 :** <br>
+Effectivement je constate que l'on ne vois pas ou l'on se trouve avec le tab
+
+Je suppose qu'on doit aujouter une notion css pour l'accessibilité
+
+Correction : <br>
+
+j'ai retirer ces ligne de css<br>
+
+*:focus {<br>
+outline: none;<br>
+}

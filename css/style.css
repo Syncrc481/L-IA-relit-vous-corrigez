@@ -49,9 +49,7 @@ img {
   transform: translateY(0);
 }
 
-*:focus {
-  outline: none;
-}
+
 
 /* En-tête */
 
@@ -138,7 +136,7 @@ h1 {
 }
 
 h2 {
-  colour: var(--vert);
+  color: var(--vert);
   font-size: 1.5rem;
 }
 
