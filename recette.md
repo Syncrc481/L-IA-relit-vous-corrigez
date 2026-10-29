@@ -60,3 +60,14 @@ Correction : <br>
 .note { <br>
 color: var(--gris); /*suppression de la var -text*/ <br>
 }
+
+**A6 :**<br>
+
+Effectivement je constate que tout le texte est en italique 
+
+je pense qu'il y a soit une balise em
+ dans le html en trop soit un mauvaise gestion dans le css du style
+
+Correction : <br>
+
+dans le html il y avais une balise em en trop je l'ai don retirer
