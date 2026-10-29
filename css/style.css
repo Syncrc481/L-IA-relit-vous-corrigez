@@ -289,3 +289,11 @@ address {
     transition: none;
   }
 }
+
+/* Correction A1*/
+
+@media (max-width: 375px) {
+  .conteneur {
+    width: auto;
+  }
+}
