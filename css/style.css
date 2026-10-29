@@ -295,3 +295,19 @@ address {
     width: auto;
   }
 }
+
+.faq {
+  border-bottom: 1px solid var(--vert-clair);
+  padding-block: 0.75rem;
+}
+
+.faq summary {
+  font-weight: 700;
+  color: var(--vert);
+  cursor: pointer;
+}
+
+.faq summary:focus-visible {
+  outline: 3px solid var(--rose);
+  outline-offset: 2px;
+}

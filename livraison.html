@@ -95,6 +95,38 @@
       </ol>
     </section>
 
+    <!-- ajout de la section faq entre comment ça marche et livrez-vous chez moi -->
+    <section class="section" aria-labelledby="titre-faq"> <!-- section reliée à son titre par aria-labelledby -->
+      <div class="conteneur"> <!-- conteneur centré comme les autres sections -->
+        <h2 id="titre-faq">Questions fréquentes</h2> <!-- titre h2 avec l'id repris par aria-labelledby -->
+
+        <details class="faq"> <!-- bloc qui s'ouvre et se ferme sans javascript -->
+          <summary>Puis-je choisir l'heure de livraison ?</summary> <!-- question cliquable et accessible au clavier -->
+          <p>Nous livrons par créneau : le matin, de 9 h à 12 h, ou l'après-midi, de 14 h à 18 h. Indiquez votre créneau lors de la commande.</p> <!-- réponse recopiée telle quelle -->
+        </details>
+
+        <details class="faq"> <!-- question 2 -->
+          <summary>Que se passe-t-il si le destinataire est absent ?</summary>
+          <p>Nous l'appelons. Sans réponse, le bouquet est rapporté en boutique et livré de nouveau le lendemain, sans frais en zone 1.</p>
+        </details>
+
+        <details class="faq"> <!-- question 3 -->
+          <summary>Livrez-vous le dimanche ?</summary>
+          <p>Non. La boutique est fermée le dimanche et le lundi : les commandes passées ces jours-là sont livrées le mardi.</p>
+        </details>
+
+        <details class="faq"> <!-- question 4 -->
+          <summary>Puis-je joindre un message ?</summary>
+          <p>Oui. Une carte écrite à la main est offerte avec chaque bouquet. Indiquez votre message lors de la commande, 200 caractères au maximum.</p>
+        </details>
+
+        <details class="faq"> <!-- question 5 -->
+          <summary>Livrez-vous les entreprises ?</summary>
+          <p>Oui, aux mêmes tarifs. Pour un abonnement floral chaque semaine, contactez la boutique.</p>
+        </details>
+      </div>
+    </section>
+
     <section class="conteneur section" aria-labelledby="titre-verifier">
       <h2 id="titre-verifier">Livrez-vous chez moi ?</h2>
       <form class="formulaire" action="#" method="get">
