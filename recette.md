@@ -49,3 +49,14 @@ Correction : <br>
 
 label for="code-postal"Code postal /label  !-- modification du for de cp a code postale--
 
+**A5 :** <br>
+
+je constate que c'est illisible quand la luminosité est baissé
+
+je pense qu'il faut changer la couleur du text
+
+Correction : <br>
+
+.note { <br>
+color: var(--gris); /*suppression de la var -text*/ <br>
+}

@@ -175,7 +175,7 @@ h2 {
 }
 
 .note {
-  color: var(--gris-texte);
+  color: var(--gris); /*suppression de la var -text*/
 }
 
 /* Étapes */
